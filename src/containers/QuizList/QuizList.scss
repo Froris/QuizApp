@@ -1,0 +1,15 @@
+.Quiz__list{
+  list-style: none;
+  color: red;
+}
+
+.List__item { 
+  a {
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+    &:hover {
+      color: rgb(140, 161, 255);
+      opacity: .7;
+    }
+  }
+}

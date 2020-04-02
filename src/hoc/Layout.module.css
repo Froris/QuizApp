@@ -1,0 +1,8 @@
+.Layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(58, 58, 58);
+  color: rgb(218, 218, 218);
+}

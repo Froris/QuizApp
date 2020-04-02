@@ -1,0 +1,23 @@
+.Auth {
+  width: 500px;
+  padding: 5px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      width: 70%;
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.buttons-wrapper {
+  border: 1px solid white;
+  margin: 10px auto;
+  display: flex;
+}

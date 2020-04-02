@@ -1,0 +1,22 @@
+.Button {
+  padding: 5px;
+  width: 200px;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+  &.Submit {
+    background-color: rgb(2, 159, 231);
+  }
+  &.Cancel {
+    background-color: rgb(230, 70, 22);
+  }
+  &.Reg {
+    background-color: rgb(1, 167, 37);
+  }
+}
+
+.Button:disabled {
+  background-color: #ccc;
+  color: #000;
+  cursor: not-allowed;
+}

@@ -1,0 +1,7 @@
+.success {
+  color: rgb(0, 212, 0);
+}
+
+.fail {
+  color: rgb(255, 93, 93);
+}

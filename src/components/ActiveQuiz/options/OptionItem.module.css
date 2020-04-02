@@ -1,0 +1,19 @@
+.Option {
+  border: 1px solid white;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.Option:hover {
+  background: rgba(30, 184, 255, 0.726);
+  transition: background .3s;
+}
+
+.Option.success {
+  background: rgb(0, 212, 0);
+}
+
+.Option.fail {
+  background: rgb(255, 93, 93);
+}
